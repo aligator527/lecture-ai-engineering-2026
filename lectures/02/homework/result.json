@@ -1,0 +1,131 @@
+{
+  "theme": "社内 IT ヘルプデスク FAQ（宿題・実装）",
+  "config": {
+    "base_model": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "seed": 42,
+    "num_train_epochs": 20,
+    "warmup_steps": 6,
+    "lr": 0.0002,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "max_seq_len": 512,
+    "max_new_tokens": 96,
+    "gen": {
+      "do_sample": false
+    }
+  },
+  "versions": {
+    "transformers": "5.18.0",
+    "peft": "0.21.1",
+    "trl": "1.14.2",
+    "torch": "2.11.0+cu130"
+  },
+  "method": "LoRA（量子化なし）",
+  "before": {
+    "label": "before",
+    "n": 21,
+    "format_rate": 0.14285714285714285,
+    "content_rate": 0.0,
+    "both_rate": 0.0,
+    "seconds": 41.1
+  },
+  "after": {
+    "label": "after",
+    "n": 21,
+    "format_rate": 1.0,
+    "content_rate": 0.9047619047619048,
+    "both_rate": 0.9047619047619048,
+    "seconds": 45.4
+  },
+  "by_group": {
+    "before": {
+      "根拠あり": {
+        "n": 15,
+        "format_rate": 0.2,
+        "content_rate": 0.0,
+        "both_rate": 0.0
+      },
+      "根拠なし-A": {
+        "n": 2,
+        "format_rate": 0.0,
+        "content_rate": 0.0,
+        "both_rate": 0.0
+      },
+      "根拠なし-B": {
+        "n": 2,
+        "format_rate": 0.0,
+        "content_rate": 0.0,
+        "both_rate": 0.0
+      },
+      "根拠なし-C": {
+        "n": 2,
+        "format_rate": 0.0,
+        "content_rate": 0.0,
+        "both_rate": 0.0
+      }
+    },
+    "after": {
+      "根拠あり": {
+        "n": 15,
+        "format_rate": 1.0,
+        "content_rate": 0.8666666666666667,
+        "both_rate": 0.8666666666666667
+      },
+      "根拠なし-A": {
+        "n": 2,
+        "format_rate": 1.0,
+        "content_rate": 1.0,
+        "both_rate": 1.0
+      },
+      "根拠なし-B": {
+        "n": 2,
+        "format_rate": 1.0,
+        "content_rate": 1.0,
+        "both_rate": 1.0
+      },
+      "根拠なし-C": {
+        "n": 2,
+        "format_rate": 1.0,
+        "content_rate": 1.0,
+        "both_rate": 1.0
+      }
+    }
+  },
+  "regressed": [],
+  "knowledge": [
+    {
+      "質問": "社内 Wi-Fi のパスワードは何ですか",
+      "FAQ にある": false,
+      "学習前の分類": "format_error",
+      "学習前の出力": "{\"answer\": \"確認が必要\"}",
+      "学習後の分類": "needs_review",
+      "学習後の出力": "{\"answer\": \"この FAQ には記載がありません。担当部署に確認が必要です。\", \"needs_review\": true}"
+    },
+    {
+      "質問": "情報システム部の部長の名前は何ですか",
+      "FAQ にある": false,
+      "学習前の分類": "format_error",
+      "学習前の出力": "{\"answer\": \"確認が必要\"}",
+      "学習後の分類": "needs_review",
+      "学習後の出力": "{\"answer\": \"この FAQ には記載がありません。担当部署に確認が必要です。\", \"needs_review\": true}"
+    },
+    {
+      "質問": "来月のシステムメンテナンスはいつですか",
+      "FAQ にある": false,
+      "学習前の分類": "format_error",
+      "学習前の出力": "{\"answer\": \"確認が必要\"}",
+      "学習後の分類": "needs_review",
+      "学習後の出力": "{\"answer\": \"この FAQ には記載がありません。担当部署に確認が必要です。\", \"needs_review\": true}"
+    },
+    {
+      "質問": "パスワードの再設定方法を教えてください",
+      "FAQ にある": false,
+      "学習前の分類": "format_error",
+      "学習前の出力": "{\"answer\": \"社内ポータルの「アカウント」画面で行います。新しいパスワードは 12 文字以上にしてください。\"}",
+      "学習後の分類": "asserted",
+      "学習後の出力": "{\"answer\": \"パスワードの再設定は社内ポータルの「アカウント」画面で行います。新しいパスワードは 12 文字以上にしてください。\", \"needs_review\": false}"
+    }
+  ],
+  "executed_training_myself": true
+}
