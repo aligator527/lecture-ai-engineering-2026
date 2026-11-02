@@ -1,0 +1,201 @@
+{
+  "summary": {
+    "label": "after",
+    "n": 21,
+    "format_rate": 1.0,
+    "content_rate": 0.9047619047619048,
+    "both_rate": 0.9047619047619048,
+    "seconds": 45.4
+  },
+  "rows": [
+    {
+      "question": "ログインできないのでパスワードをリセットしたい",
+      "raw": "{\"answer\": \"パスワードの再設定は社内ポータルの「アカウント」画面で行います。新しいパスワードは 12 文字以上にしてください。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "パスワードを再設定する画面と文字数の条件を教えてください",
+      "raw": "{\"answer\": \"パスワードの再設定は社内ポータルの「アカウント」画面で行います。新しいパスワードは 12 文字以上にしてください。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "新しいパスワードは何文字以上必要ですか",
+      "raw": "{\"answer\": \"パスワードの再設定は社内ポータルの「アカウント」画面で行います。新しいパスワードは 12 文字以上にしてください。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "リモート接続のやり方を教えてください",
+      "raw": "{\"answer\": \"社外から社内システムを使うときは、VPN アプリ「SecureLink」で接続します。接続には会社支給の PC が必要です。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "自宅から社内ネットワークにつなぐアプリの名前は？",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。担当部署に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "出張先から社内システムを使うにはどうしますか",
+      "raw": "{\"answer\": \"社外から社内システムを使うときは、VPN アプリ「SecureLink」で接続します。接続には会社支給の PC が必要です。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "代わりの PC を貸してもらえますか",
+      "raw": "{\"answer\": \"貸出用ノート PC は、情報システム部の窓口で最長 5 営業日まで借りられます。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "PC の貸出期間と窓口を教えてください",
+      "raw": "{\"answer\": \"貸出用ノート PC は、情報システム部の窓口で最長 5 営業日まで借りられます。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "ノートパソコンの貸し出しはどこで申し込みますか",
+      "raw": "{\"answer\": \"貸出用ノート PC は、情報システム部の窓口で最長 5 営業日まで借りられます。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "ヘルプデスクの受付時間は？",
+      "raw": "{\"answer\": \"IT の問い合わせはヘルプデスク（内線 4321）で、平日 9:00〜18:00 に受け付けます。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "ヘルプデスクの内線番号と受付時間を教えてください",
+      "raw": "{\"answer\": \"IT の問い合わせはヘルプデスク（内線 4321）で、平日 9:00〜18:00 に受け付けます。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "IT トラブルの相談窓口は何時から開いていますか",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。担当部署に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "ソフトの申請手順を教えてください",
+      "raw": "{\"answer\": \"業務ソフトの導入は、ワークフローの「ソフトウェア申請」から上長の承認を得て申請します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "ソフトウェアを導入するときの申請先と必要な承認は？",
+      "raw": "{\"answer\": \"業務ソフトの導入は、ワークフローの「ソフトウェア申請」から上長の承認を得て申請します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "業務ソフトを入れたいときの手続きを教えてください",
+      "raw": "{\"answer\": \"業務ソフトの導入は、ワークフローの「ソフトウェア申請」から上長の承認を得て申請します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "SecureLink のインストール方法を教えてください",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。担当部署に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "会議室の予約方法を教えてください",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。担当部署に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "ヘルプデスクにメールでも問い合わせできますか",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。担当部署に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "フィッシングメールを受け取ったらどうすればいいですか",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。担当部署に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "故障した PC の修理はいつ終わりますか",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。担当部署に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "VPN の利用時間に制限はありますか",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。担当部署に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    }
+  ]
+}
